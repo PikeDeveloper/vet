@@ -1,0 +1,95 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@13.4.4_@babel+core@7.22.9_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/.pnpm/next@13.4.4_@babel+core@7.22.9_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./src/app/clients/clients.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.clients_layout__rhT0k {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.clients_mainContainer__wmCw0 {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients_product__XyCv3 {
+  margin: 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+}
+
+.clients_link__S9Hwg {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.clients_image_and_descrption__phvym {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.clients_image__7Vpbx {
+  margin: auto;
+}
+.clients_title__NZr7t {
+  color: rgb(66, 66, 66);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 0.5;
+  margin-top: 25px;
+}
+
+.clients_subTitle__K5thV {
+  color: rgb(78, 78, 78);
+  font-size: 16px;
+
+  text-decoration: none;
+  line-height: 0.5;
+  margin-top: -5px;
+}
+
+.clients_description__x_06m {
+  margin-left: 15px;
+  width: 130px;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.clients_addNewClient__qBc_N {
+  z-index: 100;
+  border-radius: 10%;
+  width: 100px;
+  height: 50px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-decoration: none;
+}
+
+.clients_noProducts__X7VPQ{
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8a8a8a;
+  text-decoration: none;
+  text-align: center;
+ margin-top: 30px;
+}
+
