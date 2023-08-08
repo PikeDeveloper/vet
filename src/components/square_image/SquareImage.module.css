@@ -1,0 +1,6 @@
+.container {
+  border-radius: var(--small-border-radius);
+  overflow: hidden;
+  object-fit: cover;
+ 
+}

@@ -1,0 +1,108 @@
+[debug] [2023-08-06T14:35:40.375Z] ----------------------------------------------------------------------
+[debug] [2023-08-06T14:35:40.376Z] Command:       /usr/local/bin/node /home/pc/.local/share/pnpm/global/5/node_modules/firebase-tools/lib/bin/firebase.js init
+[debug] [2023-08-06T14:35:40.376Z] CLI Version:   12.4.7
+[debug] [2023-08-06T14:35:40.377Z] Platform:      linux
+[debug] [2023-08-06T14:35:40.377Z] Node Version:  v18.15.0
+[debug] [2023-08-06T14:35:40.377Z] Time:          Sun Aug 06 2023 09:35:40 GMT-0500 (hora estándar de Colombia)
+[debug] [2023-08-06T14:35:40.377Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-06T14:35:40.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-06T14:35:40.382Z] > authorizing via signed-in user (ceyrpax@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/pc/Documentos/GitHub/next-php/next-front
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-06T14:36:03.176Z] > refreshing access token with scopes: []
+[debug] [2023-08-06T14:36:03.184Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-06T14:36:03.185Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-06T14:36:03.524Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-06T14:36:03.524Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-06T14:36:03.551Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-06T14:36:04.130Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-08-06T14:36:04.131Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project unit-converter-35df1 (Unit Converter) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-08-06T14:36:17.968Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-08-06T14:36:17.969Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/unit-converter-35df1
+[debug] [2023-08-06T14:36:18.924Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com 200
+[debug] [2023-08-06T14:36:18.924Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com [omitted]
+[warn] ⚠  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2023-08-06T14:36:18.927Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2023-08-06T14:36:18.927Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/unit-converter-35df1
+[debug] [2023-08-06T14:36:20.343Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2023-08-06T14:36:20.344Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2023-08-06T14:36:30.355Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-08-06T14:36:30.356Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/unit-converter-35df1
+[debug] [2023-08-06T14:36:31.076Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com 200
+[debug] [2023-08-06T14:36:31.077Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firebasedatabase.googleapis.com [omitted]
+[info] ✔  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-08-06T14:36:31.086Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/unit-converter-35df1 [none]
+[debug] [2023-08-06T14:36:31.518Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/unit-converter-35df1 200
+[debug] [2023-08-06T14:36:31.518Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/unit-converter-35df1 {"projectId":"unit-converter-35df1","projectNumber":"134812175326","displayName":"Unit Converter","name":"projects/unit-converter-35df1","resources":{"hostingSite":"unit-converter-35df1","storageBucket":"unit-converter-35df1.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_3bb5f2c9-87c3-4855-87f3-25e4ebdfe500"}
+[debug] [2023-08-06T14:36:42.553Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances databaseId=unit-converter-35df1-default-rtdb&validateOnly=true
+[debug] [2023-08-06T14:36:42.553Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances {"type":"default_database"}
+[debug] [2023-08-06T14:36:43.636Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances 200
+[debug] [2023-08-06T14:36:43.636Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances {"name":"projects/134812175326/locations/us-central1/instances/unit-converter-35df1-default-rtdb","project":"projects/134812175326","databaseUrl":"https://unit-converter-35df1-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-08-06T14:36:43.637Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances databaseId=unit-converter-35df1-default-rtdb
+[debug] [2023-08-06T14:36:43.637Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances {"type":"default_database"}
+[debug] [2023-08-06T14:36:44.671Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances 200
+[debug] [2023-08-06T14:36:44.671Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/unit-converter-35df1/locations/us-central1/instances {"name":"projects/134812175326/locations/us-central1/instances/unit-converter-35df1-default-rtdb","project":"projects/134812175326","databaseUrl":"https://unit-converter-35df1-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[info] Skipping overwrite of Realtime Database Security Rules.
+[info] The security rules defined in database.rules.json will be published when you run firebase deploy.
+[info] 
+=== Firestore Setup
+[debug] [2023-08-06T14:37:01.370Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firestore.googleapis.com [none]
+[debug] [2023-08-06T14:37:01.370Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firestore.googleapis.com x-goog-quota-user=projects/unit-converter-35df1
+[debug] [2023-08-06T14:37:02.049Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firestore.googleapis.com 200
+[debug] [2023-08-06T14:37:02.050Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/unit-converter-35df1/services/firestore.googleapis.com [omitted]
+[debug] [2023-08-06T14:37:02.051Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/unit-converter-35df1/databases/(default) [none]
+[debug] [2023-08-06T14:37:03.022Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/unit-converter-35df1/databases/(default) 200
+[debug] [2023-08-06T14:37:03.023Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/unit-converter-35df1/databases/(default) {"name":"projects/unit-converter-35df1/databases/(default)","uid":"6b6b7d1d-2675-4d94-ab00-7ac8043d3837","createTime":"2021-03-30T01:05:37.390Z","updateTime":"2022-02-07T07:18:55.716871Z","locationId":"nam5","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2023-08-06T13:37:02.976399Z","appEngineIntegrationMode":"ENABLED","keyPrefix":"s","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"IIeGwoGhyIADMIPzv7ihuoAD"}
+[debug] [2023-08-06T14:37:03.023Z] database_type: FIRESTORE_NATIVE
+[debug] [2023-08-06T14:37:03.024Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-06T14:37:03.024Z] > authorizing via signed-in user (ceyrpax@gmail.com)
+[debug] [2023-08-06T14:37:03.025Z] [iam] checking project unit-converter-35df1 for permissions ["firebase.projects.get"]
+[debug] [2023-08-06T14:37:03.026Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/unit-converter-35df1:testIamPermissions [none]
+[debug] [2023-08-06T14:37:03.026Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/unit-converter-35df1:testIamPermissions x-goog-quota-user=projects/unit-converter-35df1
+[debug] [2023-08-06T14:37:03.026Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/unit-converter-35df1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-08-06T14:37:03.738Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/unit-converter-35df1:testIamPermissions 200
+[debug] [2023-08-06T14:37:03.738Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/unit-converter-35df1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2023-08-06T14:37:07.290Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/unit-converter-35df1/releases pageSize=10&pageToken=
+[debug] [2023-08-06T14:37:07.829Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/unit-converter-35df1/releases 200
+[debug] [2023-08-06T14:37:07.830Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/unit-converter-35df1/releases {"releases":[{"name":"projects/unit-converter-35df1/releases/cloud.firestore","rulesetName":"projects/unit-converter-35df1/rulesets/b65ffbe0-1847-47f3-888b-a1ed7d2e3b09","createTime":"2021-03-30T01:05:57.102690Z","updateTime":"2022-05-20T23:48:38.829957Z"},{"name":"projects/unit-converter-35df1/releases/firebase.storage/unit-converter-35df1.appspot.com","rulesetName":"projects/unit-converter-35df1/rulesets/edce3bfc-34a4-462f-8a91-40b319c525b4","createTime":"2021-03-30T01:05:45.346180Z","updateTime":"2023-01-27T02:18:31.992666Z"}]}
+[debug] [2023-08-06T14:37:07.831Z] Found ruleset: projects/unit-converter-35df1/rulesets/b65ffbe0-1847-47f3-888b-a1ed7d2e3b09
+[debug] [2023-08-06T14:37:07.831Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/unit-converter-35df1/rulesets/b65ffbe0-1847-47f3-888b-a1ed7d2e3b09 [none]
+[debug] [2023-08-06T14:37:08.186Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/unit-converter-35df1/rulesets/b65ffbe0-1847-47f3-888b-a1ed7d2e3b09 200
+[debug] [2023-08-06T14:37:08.187Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/unit-converter-35df1/rulesets/b65ffbe0-1847-47f3-888b-a1ed7d2e3b09 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 

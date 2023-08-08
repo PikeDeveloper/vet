@@ -1,0 +1,33 @@
+.container {
+  width: 200px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+.options {
+  margin: 5px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  color: rgb(95, 95, 95);
+  
+  text-align: left;
+}
+
+.title {
+  margin: 5px;
+  font-size: 15px;
+  border: none;
+
+  color: rgb(17, 17, 17);
+  
+  text-align: left;
+}
+
+
+.price:hover {
+  color: rgb(0, 0, 0);
+}

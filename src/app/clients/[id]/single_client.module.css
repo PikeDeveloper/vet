@@ -1,0 +1,143 @@
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  border-radius: 10px;
+  font-size: x-large;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.image_and_descrption {
+  box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.description {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 130px;
+  margin-left: 20px;
+}
+
+.text {
+  color: rgb(97, 97, 97);
+  font-size: 16px;
+  line-height: 0.1;
+}
+.clinic_histories {
+  box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.clinic_history {
+  box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.data_clinic {
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.subTitle {
+  color: rgb(24, 24, 24);
+  font-size: 16px;
+  line-height: 0.1;
+  margin-top: 25px;
+}
+.title {
+  color: rgb(32, 32, 32);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 0.1;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.addClinicalHistory {
+  z-index: 100;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.deleteClient {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  border-radius: 10px;
+  background-color: var(--rojo);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-decoration: none;
+  padding: 3px 5px;
+  margin-top: 20px;
+}
+
+.editClinicalHistory {
+  width: 80px;
+  height: 20px;
+  color: white;
+  background-color: #006eff;
+  font-size: 16px;
+  line-height: 1.2;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
+.deletClinicalHistory {
+  width: 80px;
+  height: 20px;
+  color: white;
+  background-color: var(--rojo);
+  font-size: 16px;
+  line-height: 1.2;
+
+  cursor: pointer;
+  border-radius: 4px;
+
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .post {
+    width: 90%;
+  }
+}

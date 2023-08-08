@@ -1,0 +1,91 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.mainContainer {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin: 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.image_and_descrption {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  margin: auto;
+}
+.title {
+  color: rgb(66, 66, 66);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 0.5;
+  margin-top: 25px;
+}
+
+.subTitle {
+  color: rgb(78, 78, 78);
+  font-size: 16px;
+
+  text-decoration: none;
+  line-height: 0.5;
+  margin-top: -5px;
+}
+
+.description {
+  margin-left: 15px;
+  width: 130px;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.addNewClient {
+  z-index: 100;
+  border-radius: 10%;
+  width: 100px;
+  height: 50px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-decoration: none;
+}
+
+.noProducts{
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8a8a8a;
+  text-decoration: none;
+  text-align: center;
+ margin-top: 30px;
+}
